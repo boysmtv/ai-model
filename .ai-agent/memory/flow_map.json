@@ -1,0 +1,65 @@
+{
+  "flows": [
+    {
+      "name": "api",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "config",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "middleware",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    },
+    {
+      "name": "tests",
+      "entrypoints": [],
+      "domain_functions": [],
+      "tests": [],
+      "docs": [
+        ".ai-agent/memory/api_contracts.json",
+        ".ai-agent/memory/architecture_map.json",
+        ".ai-agent/memory/change_log.json",
+        ".ai-agent/memory/engineering_guidance.json",
+        ".ai-agent/memory/feature_catalog.json",
+        ".ai-agent/memory/flow_map.json"
+      ],
+      "notes": []
+    }
+  ],
+  "updated_at": "2026-05-15T14:24:07.417056+00:00"
+}

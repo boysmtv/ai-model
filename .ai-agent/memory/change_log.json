@@ -1,0 +1,46 @@
+{
+  "changes": [
+    {
+      "run_id": "backend-go-gin-brief-v1",
+      "final_status": "needs_attention",
+      "summary": "Execution met the project contract and cleared the review gate.",
+      "changed_artifacts": [
+        "generated/.env.example",
+        "generated/.gitignore",
+        "generated/cmd/api/main.go",
+        "generated/docker-compose.yml",
+        "generated/Dockerfile",
+        "generated/go.mod",
+        "generated/init-models.sh",
+        "generated/README.md"
+      ],
+      "features": [
+        "api",
+        "config",
+        "dockerfile",
+        "go.mod",
+        "middleware",
+        "tests"
+      ],
+      "recorded_at": "2026-05-15T12:39:25.335767+00:00"
+    },
+    {
+      "run_id": "brief-v1",
+      "final_status": "needs_attention",
+      "summary": "Execution met the project contract and cleared the review gate.",
+      "changed_artifacts": [
+        "generated/docker-compose.yml",
+        "generated/init-models.ps1",
+        "generated/init-models.sh",
+        "generated/README.md"
+      ],
+      "features": [
+        "api",
+        "config",
+        "middleware",
+        "tests"
+      ],
+      "recorded_at": "2026-05-15T14:24:07.417056+00:00"
+    }
+  ]
+}

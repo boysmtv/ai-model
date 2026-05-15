@@ -1,0 +1,10 @@
+{
+  "features": [
+    "api",
+    "config",
+    "middleware",
+    "tests"
+  ],
+  "commands": [],
+  "updated_at": "2026-05-15T14:24:07.417056+00:00"
+}
