@@ -73,10 +73,8 @@
         "generated/init-models.sh",
         "generated/README.md"
       ],
-      "features": [
-        "d:\\work\\pribadi\\ai\\ai-model\\.env.example"
-      ],
-      "recorded_at": "2026-05-16T11:03:33.816118+00:00"
+      "features": [],
+      "recorded_at": "2026-05-16T11:53:32.673304+00:00"
     }
   ]
 }

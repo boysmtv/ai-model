@@ -14,58 +14,56 @@
   "project_type": "application",
   "build_commands": [],
   "run_commands": [],
-  "features": [
-    "d:\\work\\pribadi\\ai\\ai-model\\.env.example"
-  ],
+  "features": [],
   "packages": [],
   "languages": [],
   "entrypoints": [],
   "final_status": "approved",
   "mode": "external_service",
-  "updated_at": "2026-05-16T11:03:33.813120+00:00",
+  "updated_at": "2026-05-16T11:53:32.673304+00:00",
   "source_fingerprint": {
-    "updated_at": "2026-05-16T11:03:33.816118+00:00",
+    "updated_at": "2026-05-16T11:53:32.673304+00:00",
     "file_count": 11,
-    "digest": "4f25e9510d13304c24be07822e7f00b81a66f687a5dfdae34909180c73444b50",
+    "digest": "1f8969232e83f773c89b84ffcad69371ed331b22d94e90892b0b9edb31c482aa",
     "files": [
       {
         "path": ".ai-agent/memory/api_contracts.json",
-        "hash": "427b5077c54693e2a9d54f8360530ac9ea77599e822f89bc4a12dae6e9030ad4",
+        "hash": "bc25a6b978caaaca831bca3dfb31e3a05f5ec28310380d9890259b0bfe1c4bce",
         "size_bytes": 76
       },
       {
         "path": ".ai-agent/memory/architecture_map.json",
-        "hash": "418252cc80df20eebf494a1f5bfeaee36832273890d61a50c3a88332cb4d93e5",
+        "hash": "24fd7b50ccffe4d156bb56490d79ba86dd98d1bc6aee89d838a87cb69c6cbe68",
         "size_bytes": 311
       },
       {
         "path": ".ai-agent/memory/change_log.json",
-        "hash": "567888cf4b148c6e35b3256c4a56d54211d3fdfb6e78f487e46a84dddbd22158",
+        "hash": "ea1b11d73f51ab9cf112c33c3fe006734db1f5efa4e30473d1b6ba101b6b58d5",
         "size_bytes": 2484
       },
       {
         "path": ".ai-agent/memory/engineering_guidance.json",
-        "hash": "3da9f5115e1f67c1d8cb1ced2536e969ab6048218638a4e6d0499e02b98fc5f7",
+        "hash": "5ce2f8cccffec984371583e7af22765906ae87b119a3e98751fe2fa00bd977eb",
         "size_bytes": 1971
       },
       {
         "path": ".ai-agent/memory/feature_catalog.json",
-        "hash": "a1fd3005f4dfef6a0fcdf7851dcf0ffee10f81018ae3a4f4117221a820cb1810",
+        "hash": "5c5adfa6280c392da1d7300b8446d61e44d0c02571d4d80521fdb5ac3b62e90f",
         "size_bytes": 151
       },
       {
         "path": ".ai-agent/memory/flow_map.json",
-        "hash": "6eba642ad18fb079baaf90137491a6c2ed22facd571ffe8cc133bf61ecc5cf69",
+        "hash": "82145052502e8d96e04d4260aa13f28aa236ce50a0c8849e27f12ae79867c297",
         "size_bytes": 568
       },
       {
         "path": ".ai-agent/memory/project_manifest.json",
-        "hash": "8e8082cc33b29c22b1b630662f40bde684f984fd364b711946c62b2c4de5bf53",
-        "size_bytes": 3503
+        "hash": "1db98beb18152354766e20b5172e47a729fe578f6cba9da0ceb6a3436d859d98",
+        "size_bytes": 3502
       },
       {
         "path": ".ai-agent/memory/symbol_index.json",
-        "hash": "4896aa6743472690d1f94f0226fb65b6f263dc5cfefeab52ffbf5fac7a340ba1",
+        "hash": "12c27d50e54760fbd9e16440fd4693cd3b585b2f184a3e5fe165d516e5f85485",
         "size_bytes": 146
       },
       {
@@ -80,8 +78,8 @@
       },
       {
         "path": "docker-compose.yml",
-        "hash": "a80cc23549c999f4b4d9ddffb639d1a5289ca131916e90fb5776cb495ba825f1",
-        "size_bytes": 947
+        "hash": "dc583eb12f4b1ac9de00a172d096b60d6fc8390348701f3728a3c00a80802112",
+        "size_bytes": 336
       }
     ]
   }

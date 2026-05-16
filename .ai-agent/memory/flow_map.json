@@ -1,20 +1,4 @@
 {
-  "flows": [
-    {
-      "name": "d:\\work\\pribadi\\ai\\ai-model\\.env.example",
-      "entrypoints": [],
-      "domain_functions": [],
-      "tests": [],
-      "docs": [
-        ".ai-agent/memory/api_contracts.json",
-        ".ai-agent/memory/architecture_map.json",
-        ".ai-agent/memory/change_log.json",
-        ".ai-agent/memory/engineering_guidance.json",
-        ".ai-agent/memory/feature_catalog.json",
-        ".ai-agent/memory/flow_map.json"
-      ],
-      "notes": []
-    }
-  ],
-  "updated_at": "2026-05-16T11:03:33.808577+00:00"
+  "flows": [],
+  "updated_at": "2026-05-16T11:53:32.673304+00:00"
 }
