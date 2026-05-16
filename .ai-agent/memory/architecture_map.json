@@ -1,7 +1,7 @@
 {
   "project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
-  "final_project_root": "",
-  "stack_id": "backend-go-gin",
+  "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
+  "stack_id": "custom",
   "entrypoints": [],
   "services": [],
   "tests": [],
@@ -9,6 +9,6 @@
     "README.md",
     ".brief/brief.v1.md"
   ],
-  "updated_at": "2026-05-15T14:24:07.417056+00:00",
+  "updated_at": "2026-05-16T10:24:18.696426+00:00",
   "source_file_count": 0
 }

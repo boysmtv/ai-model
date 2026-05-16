@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-15T14:24:07.417056+00:00",
+  "updated_at": "2026-05-16T10:24:18.699004+00:00",
   "project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
-  "final_project_root": "",
+  "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
   "dominant_language": "",
-  "dominant_platform": "server",
+  "dominant_platform": "application",
   "languages": [],
   "platforms": [
-    "server",
-    "backend"
+    "application",
+    "application"
   ],
   "framework_hints": [
     "docker-compose"
@@ -27,15 +27,13 @@
     "When the project supports Docker review, make the latest promoted version runnable in Docker before asking for review."
   ],
   "active_goals": [
-    "api",
-    "config",
-    "middleware",
-    "tests"
+    "d:\\work\\pribadi\\ai\\ai-model\\.env.example",
+    "d:\\work\\pribadi\\ai\\ai-model\\init-models.sh"
   ],
   "current_focus": {
-    "problem_statement": "# AI Model Local Server - Brief v1\n\n## Goal\n\nBuild a local AI model server that runs Ollama and lightweight Qwen-based coding/computer-science models in Docker. The server will run on this machine first and later be accessed from other computers on the same lo\n...[truncated 2911 chars]",
+    "problem_statement": "# AI Model Local Full Pipeline Brief v1\n\nValidate and harden the existing local AI model server project at `D:\\Work\\Pribadi\\Ai\\ai-model`.\n\n## Goal\n\nRun the AI-agent pipeline locally with Ollama, Qwen, Qdrant, and all configured agents enabled. The output shoul\n...[truncated 1727 chars]",
     "entrypoints": [],
     "contracts": [],
-    "feature_count": 4
+    "feature_count": 2
   }
 }
