@@ -2,7 +2,7 @@
   "project_name": "ai-model",
   "project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
   "final_project_root": "D:\\Work\\Pribadi\\Ai\\ai-model",
-  "problem_file": ".tmp\\ai-model-local-full-brief-v1.md",
+  "problem_file": "D:\\Work\\Pribadi\\Ai\\ai-software-factory\\briefs\\ai-model-local-full-brief-v1.md",
   "problem_statement": "# AI Model Local Full Pipeline Brief v1\n\nValidate and harden the existing local AI model server project at `D:\\Work\\Pribadi\\Ai\\ai-model`.\n\n## Goal\n\nRun the AI-agent pipeline locally with Ollama, Qwen, Qdrant, and all configured agents enabled. The output should preserve the existing Docker/Ollama project and prove that the local stack is ready for continued free local agent usage.\n\n## Existing Project Scope\n\n- The project is an existing Docker Compose local AI model server.\n- Do not replace it w\n...[truncated 1487 chars]",
   "stack": [
     "custom"
@@ -15,59 +15,58 @@
   "build_commands": [],
   "run_commands": [],
   "features": [
-    "d:\\work\\pribadi\\ai\\ai-model\\.env.example",
-    "d:\\work\\pribadi\\ai\\ai-model\\init-models.sh"
+    "d:\\work\\pribadi\\ai\\ai-model\\.env.example"
   ],
   "packages": [],
   "languages": [],
   "entrypoints": [],
   "final_status": "approved",
   "mode": "external_service",
-  "updated_at": "2026-05-16T10:24:18.699004+00:00",
+  "updated_at": "2026-05-16T11:03:33.813120+00:00",
   "source_fingerprint": {
-    "updated_at": "2026-05-16T10:24:18.699004+00:00",
+    "updated_at": "2026-05-16T11:03:33.816118+00:00",
     "file_count": 11,
-    "digest": "eab5b929c5fd46b138e4dd6c529fe1a56a41ac12b3587fc7682a25f223072b3e",
+    "digest": "4f25e9510d13304c24be07822e7f00b81a66f687a5dfdae34909180c73444b50",
     "files": [
       {
         "path": ".ai-agent/memory/api_contracts.json",
-        "hash": "c2b13bdb9dbd7072dfcce0d9feed098852d73a6012f6b887188a1da6779f7a4a",
+        "hash": "427b5077c54693e2a9d54f8360530ac9ea77599e822f89bc4a12dae6e9030ad4",
         "size_bytes": 76
       },
       {
         "path": ".ai-agent/memory/architecture_map.json",
-        "hash": "deddb0b6a173129cddb153a132fa8cb1508d565b9ef5557ebf5abc4c0d890d3b",
-        "size_bytes": 334
+        "hash": "418252cc80df20eebf494a1f5bfeaee36832273890d61a50c3a88332cb4d93e5",
+        "size_bytes": 311
       },
       {
         "path": ".ai-agent/memory/change_log.json",
-        "hash": "4029f4d05235cb65c627d38f10996e8cd2bdc7d15e1ccb68c191577a6b203591",
-        "size_bytes": 2495
+        "hash": "567888cf4b148c6e35b3256c4a56d54211d3fdfb6e78f487e46a84dddbd22158",
+        "size_bytes": 2484
       },
       {
         "path": ".ai-agent/memory/engineering_guidance.json",
-        "hash": "2dee4155716e0d2f40aff0207b7d98ba977e0e0dee0a258e914a6c146b86a527",
-        "size_bytes": 3693
+        "hash": "3da9f5115e1f67c1d8cb1ced2536e969ab6048218638a4e6d0499e02b98fc5f7",
+        "size_bytes": 1971
       },
       {
         "path": ".ai-agent/memory/feature_catalog.json",
-        "hash": "e54fbb2029c98ee9c7c7fcc365c70c578eec7cfdaa159976c58a336670df5c7c",
-        "size_bytes": 94
+        "hash": "a1fd3005f4dfef6a0fcdf7851dcf0ffee10f81018ae3a4f4117221a820cb1810",
+        "size_bytes": 151
       },
       {
         "path": ".ai-agent/memory/flow_map.json",
-        "hash": "5c810c35947c68467521351e481acee53b8f2254837644753da11c4c9d433402",
-        "size_bytes": 72
+        "hash": "6eba642ad18fb079baaf90137491a6c2ed22facd571ffe8cc133bf61ecc5cf69",
+        "size_bytes": 568
       },
       {
         "path": ".ai-agent/memory/project_manifest.json",
-        "hash": "18829d6287fa5bb40d0d39b76976fc3046b6fd6cb03e2e7f08cade48e54580b8",
-        "size_bytes": 3773
+        "hash": "8e8082cc33b29c22b1b630662f40bde684f984fd364b711946c62b2c4de5bf53",
+        "size_bytes": 3503
       },
       {
         "path": ".ai-agent/memory/symbol_index.json",
-        "hash": "e75afba59c768aa841d29c854f7f95f3a765d6492f18a2a6ef9a43a2b6e07d55",
-        "size_bytes": 683
+        "hash": "4896aa6743472690d1f94f0226fb65b6f263dc5cfefeab52ffbf5fac7a340ba1",
+        "size_bytes": 146
       },
       {
         "path": ".brief/brief.v1.md",
