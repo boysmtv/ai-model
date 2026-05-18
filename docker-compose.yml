@@ -3,46 +3,24 @@ services:
     image: ollama/ollama:latest
     container_name: ollama
     restart: unless-stopped
-
     ports:
-      - "11434:11434"
-
+      - "11435:11434"
     volumes:
       - ollama_data:/root/.ollama
-
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
-
     environment:
       - OLLAMA_KEEP_ALIVE=24h
-      - OLLAMA_HOST=0.0.0.0:11434
-
     networks:
       - ai-network
 
-  open-webui:
-    image: openwebui/open-webui:0.9-cuda
-    container_name: open-webui
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
     restart: unless-stopped
-
-    depends_on:
-      - ollama
-
     ports:
-      - "3000:8080"
-
-    environment:
-      - OLLAMA_BASE_URL=http://ollama:11434
-      - HF_TOKEN=${HF_TOKEN}
-
+      - "6333:6333"
+      - "6334:6334"
     volumes:
-      - open_webui_data:/app/backend/data
-
+      - qdrant_data:/qdrant/storage
     networks:
       - ai-network
 
@@ -51,4 +29,4 @@ networks:
 
 volumes:
   ollama_data:
-  open_webui_data:
+  qdrant_data:
