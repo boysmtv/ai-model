@@ -1,14 +1,15 @@
-$ErrorActionPreference = "Stop"
+#!/bin/bash
+set -euo pipefail
 
-Write-Host "Waiting Ollama startup..."
-Start-Sleep -Seconds 10
+echo "Waiting Ollama startup..."
+sleep 10
 
-docker exec ollama ollama list | Out-Host
-docker exec ollama ollama pull qwen2.5:7b
+docker exec ollama ollama list >/dev/null
+docker exec ollama ollama pull qwen3:8b
 docker exec ollama ollama pull qwen2.5-coder:7b
-if ($env:OPENCLAW_MODEL -and $env:OPENCLAW_MODEL -ne "qwen2.5:7b" -and $env:OPENCLAW_MODEL -ne "qwen2.5-coder:7b") {
-    docker exec ollama ollama pull $env:OPENCLAW_MODEL
-}
-docker exec ollama ollama list | Out-Host
+if [ -n "${OPENCLAW_MODEL:-}" ] && [ "${OPENCLAW_MODEL}" != "qwen3:8b" ] && [ "${OPENCLAW_MODEL}" != "qwen2.5-coder:7b" ]; then
+  docker exec ollama ollama pull "${OPENCLAW_MODEL}"
+fi
+docker exec ollama ollama list
 
-Write-Host "Done."
+echo "Done."

@@ -9,6 +9,17 @@ services:
       - ollama_data:/root/.ollama
     environment:
       - OLLAMA_KEEP_ALIVE=24h
+      - CUDA_VISIBLE_DEVICES=0
+      - OLLAMA_NUM_GPU=1
+    # GPU Runtime Configuration
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     networks:
       - ai-network
 
@@ -24,9 +35,28 @@ services:
     networks:
       - ai-network
 
+  open-webui:
+    image: openwebui/open-webui:0.9-cuda
+    container_name: open-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui_data:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - QDRANT_URL=http://qdrant:6333
+      - RAG_EMBEDDING_ENGINE=ollama
+    depends_on:
+      - ollama
+      - qdrant
+    networks:
+      - ai-network
+
 networks:
   ai-network:
 
 volumes:
   ollama_data:
   qdrant_data:
+  open-webui_data:
