@@ -9,17 +9,6 @@ services:
       - ollama_data:/root/.ollama
     environment:
       - OLLAMA_KEEP_ALIVE=24h
-      - CUDA_VISIBLE_DEVICES=0
-      - OLLAMA_NUM_GPU=1
-    # GPU Runtime Configuration
-    runtime: nvidia
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
     networks:
       - ai-network
 
@@ -36,7 +25,7 @@ services:
       - ai-network
 
   open-webui:
-    image: openwebui/open-webui:0.9-cuda
+    image: openwebui/open-webui:latest
     container_name: open-webui
     restart: unless-stopped
     ports:
